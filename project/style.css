@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0 auto;
+    padding: 0;
+}
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+    margin: 0 auto;
+}
+nav {
+    margin: 10px 0;
+}
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+.content {
+    padding: 20px;
+}
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+article {
+    border: 1px solid #ddd;
+    padding: 15px;
+    width: 30%;
+    box-sizing: border-box;
+}
+article img {
+    max-width: 100%;
+    height: auto;
+}
+article h3 {
+    margin-top: 0;
+}
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+@media (max-width: 768px) {
+    article {
+        width: 48%;
+    }
+}
+@media (max-width: 480px) {
+    article {
+        width: 100%;
+    }
+}
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+form input[type="text"],
+form textarea,
+form select,
+form input[type="file"] {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+form input[type="checkbox"] {
+    margin-left: 5px;
+}
+
+form button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
+
+form .error {
+    color: #ff0000;
+    }
